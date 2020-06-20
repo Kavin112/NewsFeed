@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253056"
+    tools:context=".AddEventActivity">
+
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_product_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_product_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:hint="News Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font_a"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/et_bg"/>
+
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name"
+        android:fontFamily="@font/font_a"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:hint="News Description"
+        android:textColor="@color/white"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/et_bg"/>
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font_a"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:hint="Venue"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/et_bg"/>
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price"
+        android:text="PUBLISH NEWS"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/font_a"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@drawable/buttonsingup"
+        />
+
+</RelativeLayout>

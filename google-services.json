@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785374134475",
+    "firebase_url": "https://feed-8bba4.firebaseio.com",
+    "project_id": "feed-8bba4",
+    "storage_bucket": "feed-8bba4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785374134475:android:644815e67caedbeee89b4e",
+        "android_client_info": {
+          "package_name": "com.kavin.newsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785374134475-jj8oq6i6a6curu8r5afd8u0rbst0re7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt600EF1-OFWHgys2IAoOksR9ccgG_OYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785374134475-jj8oq6i6a6curu8r5afd8u0rbst0re7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
